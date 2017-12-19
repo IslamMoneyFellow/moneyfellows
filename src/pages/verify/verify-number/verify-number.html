@@ -1,0 +1,22 @@
+<ion-content padding text-center>
+  <ion-icon name="arrow-back" class="backBtn" (click)="onPoping()"></ion-icon>
+  <h3>Verification Code</h3>
+  <h6>Enter the code you received via SMS</h6>
+  <ion-grid class="verification-code-wrap">
+    <ion-row>
+      <ion-col>
+          <ion-input type="number" min="0" max="9" maxlength="1"></ion-input>
+      </ion-col>
+      <ion-col>
+          <ion-input type="number"  min="0" max="9"   maxlength="1"></ion-input>
+      </ion-col>
+      <ion-col>
+          <ion-input type="number"  min="0" max="9"  maxlength="1"></ion-input>
+      </ion-col>
+      <ion-col>
+          <ion-input type="number"  min="0" max="9"  maxlength="1"></ion-input>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <button ion-button clear>Resend code</button>
+</ion-content>

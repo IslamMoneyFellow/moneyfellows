@@ -1,0 +1,37 @@
+page-verify-number {
+  ion-content {
+    background: color($colors, lighter-primary) !important;
+    .backBtn {
+      color: #fff;
+      font-size: 2em;
+      position: absolute;
+      left: 20px;
+      top: 20px;
+    }
+    h3 {
+      margin-top:100px;
+      color:  color($colors, light);
+    }
+    h6 {
+      font-weight: 300;
+    }
+    .verification-code-wrap {
+      width: 66%;
+      margin: 20px auto 10px;
+    }
+    ion-input {
+      background: rgba(255,255,255,0.75);
+      border-radius: 4px;
+      height: 60px;
+
+      input {
+        text-align: center;
+        padding: 10px;
+        font-size: 2em;
+      }
+    }
+
+  }
+
+
+}

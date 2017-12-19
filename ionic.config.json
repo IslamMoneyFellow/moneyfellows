@@ -1,0 +1,8 @@
+{
+  "name": "MoneyFellows",
+  "app_id": "9ac66a08",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

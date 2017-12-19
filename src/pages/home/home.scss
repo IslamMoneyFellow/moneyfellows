@@ -1,0 +1,58 @@
+page-home {
+  .slide-content {
+    color: #fff;
+    strong {
+      font-size: 4em;
+      margin-bottom:0;
+      text-transform: uppercase;
+    }
+    h4 {
+      margin-top:0;
+      font-size: 2em;
+      text-transform: capitalize;
+    }
+  }
+  .scroll-content {
+    padding-top: 0px !important;
+  }
+  .welcome-screen-content {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    z-index: 6;
+
+    button {
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 12px;
+      font-size: 14px;
+      font-weight: 300;
+
+      &.facebook-btn {
+        background-color: color($colors, facebook);
+      }
+      &.google-btn {
+        background-color: color($colors, light);
+        color: color($colors, google)
+      }
+    }
+  }
+  .swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 24%;
+  }
+}
+.swiper-pagination-bullet {
+  background-color: transparent;
+  border: 2px solid #005C83 !important;
+  opacity: 1;
+  width: 10px;
+  height: 10px;
+}
+
+button.swiper-pagination-bullet-active {
+  background: #005C83;
+  opacity: 1;
+}
